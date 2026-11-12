@@ -1,0 +1,16 @@
+{
+  "name": "sasori-utility-ecosystem",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "core",
+    "packages/*"
+  ],
+  "scripts": {
+    "test": "node --test packages/*/test/*.test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

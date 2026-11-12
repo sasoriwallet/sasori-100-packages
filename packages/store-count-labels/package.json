@@ -1,0 +1,17 @@
+{
+  "name": "@sasoriwallet/store-count-labels",
+  "version": "0.1.0",
+  "description": "store count labels utilities",
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "dependencies": {
+    "sasori-mini-utils": "^0.1.0"
+  },
+  "license": "MIT"
+}

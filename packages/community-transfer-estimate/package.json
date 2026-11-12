@@ -1,0 +1,17 @@
+{
+  "name": "@sasoriwallet/community-transfer-estimate",
+  "version": "0.1.0",
+  "description": "community transfer estimate utilities",
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "dependencies": {
+    "sasori-mini-utils": "^0.1.0"
+  },
+  "license": "MIT"
+}
