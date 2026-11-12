@@ -1,17 +1,34 @@
 {
-  "name": "@sasoriwallet/store-manifest",
+  "name": "@himthegoattt/store-manifest",
   "version": "0.1.0",
-  "description": "store manifest utilities",
+  "description": "Create a normalized file asset manifest with slugs and formatted byte sizes.",
   "type": "module",
   "main": "./src/index.js",
   "exports": {
     ".": "./src/index.js"
   },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
   "scripts": {
     "test": "node --test"
   },
   "dependencies": {
     "sasori-mini-utils": "^0.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sasoriwallet/sasori-100-packages.git",
+    "directory": "packages/store-manifest"
+  },
+  "homepage": "https://github.com/sasoriwallet/sasori-100-packages/tree/main/packages/store-manifest",
+  "engines": {
+    "node": ">=18"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "license": "MIT"
 }
