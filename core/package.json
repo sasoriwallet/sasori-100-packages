@@ -1,9 +1,42 @@
 {
   "name": "sasori-mini-utils",
   "version": "0.1.0",
+  "description": "Small dependency-free JavaScript utilities for slugs, text truncation, size labels and plurals.",
   "type": "module",
+  "main": "./src/index.js",
   "exports": {
     ".": "./src/index.js"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sasoriwallet/sasori-100-packages",
+    "directory": "core"
+  },
+  "homepage": "https://github.com/sasoriwallet/sasori-100-packages/tree/main/core",
+  "bugs": {
+    "url": "https://github.com/sasoriwallet/sasori-100-packages/issues"
+  },
+  "keywords": [
+    "javascript",
+    "utilities",
+    "slug",
+    "truncate",
+    "formatBytes",
+    "pluralize"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "license": "MIT"
 }
