@@ -8,7 +8,8 @@
     "packages/*"
   ],
   "scripts": {
-    "test": "node --test packages/*/test/*.test.js"
+    "test": "node --test core/test/*.test.js packages/*/test/*.test.js",
+    "pack:core:dry-run": "npm pack --dry-run --workspace=core"
   },
   "engines": {
     "node": ">=18"
