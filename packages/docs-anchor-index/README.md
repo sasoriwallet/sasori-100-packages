@@ -1,10 +1,13 @@
-# @sasoriwallet/docs-anchor-index
+# @himthegoattt/docs-anchor-index
 
-docs anchor index utilities. Depends on `sasori-mini-utils`.
+Generate unique HTML anchor IDs for repeated documentation headings.
 
-Example:
+Depends on [sasori-mini-utils](https://www.npmjs.com/package/sasori-mini-utils) version 0.1.x.
 
 ```js
-import { createAnchorIndex } from '@sasoriwallet/docs-anchor-index';
-console.log(createAnchorIndex(['A','A']));
+import { createAnchorIndex } from '@himthegoattt/docs-anchor-index';
+console.log(createAnchorIndex(['Intro', 'Intro', 'Usage']));
+// [{title:'Intro',id:'intro'},{title:'Intro',id:'intro-2'},{title:'Usage',id:'usage'}]
 ```
+
+Requires Node.js 18 or later. MIT licensed.
