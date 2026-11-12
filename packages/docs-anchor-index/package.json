@@ -1,17 +1,34 @@
 {
-  "name": "@sasoriwallet/docs-anchor-index",
+  "name": "@himthegoattt/docs-anchor-index",
   "version": "0.1.0",
-  "description": "docs anchor index utilities",
+  "description": "Generate unique HTML anchor IDs for repeated documentation headings.",
   "type": "module",
   "main": "./src/index.js",
   "exports": {
     ".": "./src/index.js"
   },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
   "scripts": {
     "test": "node --test"
   },
   "dependencies": {
     "sasori-mini-utils": "^0.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sasoriwallet/sasori-100-packages.git",
+    "directory": "packages/docs-anchor-index"
+  },
+  "homepage": "https://github.com/sasoriwallet/sasori-100-packages/tree/main/packages/docs-anchor-index",
+  "engines": {
+    "node": ">=18"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "license": "MIT"
 }
